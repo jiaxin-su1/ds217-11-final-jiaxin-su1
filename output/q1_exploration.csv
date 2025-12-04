@@ -1,0 +1,15 @@
+column_name,mean,std,min,max,missing_count
+Air Temperature,12.62,10.44,-29.78,37.6,75
+Wet Bulb Temperature,10.27,9.4,-28.9,28.4,75951
+Humidity,68.02,15.63,0.0,100.0,0
+Rain Intensity,0.16,1.79,0.0,183.6,75951
+Interval Rain,0.14,1.1,-0.9,63.42,0
+Total Rain,141.48,190.46,0.0,1056.1,75951
+Precipitation Type,4.27,15.59,0.0,70.0,75951
+Wind Direction,140.8,122.01,0.0,359.0,0
+Wind Speed,2.92,5.34,0.0,999.9,0
+Maximum Wind Speed,3.56,5.96,0.0,999.9,0
+Barometric Pressure,994.31,10.03,0.0,3098.5,146
+Solar Radiation,112.35,842.79,-100000.0,1277.0,0
+Heading,281.97,142.77,0.0,359.0,75951
+Battery Life,13.16,1.54,0.0,15.3,0
