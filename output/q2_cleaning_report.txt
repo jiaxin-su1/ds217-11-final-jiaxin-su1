@@ -1,0 +1,39 @@
+
+DATA CLEANING REPORT
+====================
+
+Rows before cleaning: 196321
+
+Outlier Handling 
+==================================================
+1. SOLAR RADIATION (SPECIAL HANDLING)
+======================================================================
+Condition: Negative values (physically impossible)
+Rule: Solar Radiation < 0
+Method: Replaced with NaN
+Outliers found: 13,425
+Percentage: 6.84%
+Action: 13,425 values → NaN
+
+======================================================================
+2. IQR METHOD - NUMERIC COLUMNS (14 columns affected)
+======================================================================
+Total columns processed: 14
+Columns with outliers: dict_keys(['Air Temperature', 'Wet Bulb Temperature', 'Humidity', 'Rain Intensity', 'Interval Rain', 'Total Rain', 'Precipitation Type', 'Wind Direction', 'Wind Speed', 'Maximum Wind Speed', 'Barometric Pressure', 'Solar Radiation', 'Heading', 'Battery Life'])
+Method: Capped at bounds [Q1 - 1.5×IQR, Q3 + 1.5×IQR]
+
+Duplicates Removed: 0
+
+
+Missing Data Handling:
+- Missing values were imputed using mean for numeric columns and mode for categorical columns.
+
+
+Data Type Conversions:
+- Measurement Timestamp: Converted to datetime64[ns]
+- Station Name: Converted to string
+- Measurement ID: Converted to string
+- Measurement Timestamp Label: Converted to datetime64[ns] and reformatted to 'YYYY-MM-DD HH:MM:SS'
+
+Rows after cleaning: 196321
+

@@ -1,0 +1,16 @@
+feature,importance
+Wet Bulb Temperature,0.6945227
+Battery Life,0.17718795
+wetbulb_humidity_diff,0.035074327
+Barometric Pressure,0.018293554
+Rain Intensity,0.015835356
+Solar Radiation,0.014140332
+Maximum Wind Speed,0.011575321
+Wind Speed,0.010751017
+Wind Direction,0.009047607
+Humidity,0.006636666
+rain_ratio,0.002773857
+Interval Rain,0.0016855558
+Precipitation Type,0.00125919
+Total Rain,0.0009343988
+Heading,0.00028221903

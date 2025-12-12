@@ -1,0 +1,17 @@
+KEY FINDINGS SUMMARY
+===================
+
+MODEL PERFORMANCE:
+- Best performing model: XGBoost (R² = 0.79)
+- Linear Regression did a pretty bad job in prediction, which has test R²: 0.46
+- XGBoost achieves lowest RMSE: 4.68
+
+FEATURE IMPORTANCE:
+- Most important feature: Wet Bulb Temperature (importance: 0.695) 
+- Top 3 features account for 90.68% of total importance
+
+DATA QUALITY:
+- Dataset cleaned: 196321 → 196321 rows
+- Missing values handled via mean and mode imputation
+- Outliers capped using IQR method
+

@@ -1,0 +1,4 @@
+wetbulb_humidity_diff
+wind_speed_rolling_24h
+rain_ratio
+interval_rain_rolling_7h

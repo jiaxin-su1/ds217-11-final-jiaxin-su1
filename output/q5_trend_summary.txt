@@ -1,0 +1,12 @@
+KEY PATTERNS IDENTIFIED
+======================
+
+TEMPORAL TRENDS:
+- Air Temperature shows seasonal variation: higher in warm months, lower in cold months
+- Monthly air temp range: -5.04 °C to 25.25 °C 
+
+CORRELATIONS:
+- Air Temp vs Wet Bulb Temparature:0.764 (strong positive correlation)
+- Air Temp vs Total Rain: 0.328 (moderate positive correlation)
+- Wet Bulb Temparature vs Total Rain: 0.444 (moderate positive correlation)
+
